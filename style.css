@@ -16,3 +16,10 @@
 .language-switch{display:flex;align-items:center;gap:5px;padding:6px 8px;border:1px solid #dce5ef;border-radius:8px;background:#fff;color:#60748b;font-size:12px}
 .language-switch select{border:0;background:transparent;color:#09264a;font:800 11px "DM Sans",sans-serif;outline:none;cursor:pointer}
 @media(max-width:700px){.language-switch{justify-content:center;margin:5px 0 2px;padding:11px}.language-switch select{font-size:12px}}
+
+/* Certificado SENAI real: substitui a ilustração decorativa anterior */
+.certificate-real-frame{position:relative;z-index:2;width:min(100%,390px);padding:10px;background:#fff;border:1px solid #dce6f0;border-radius:5px;box-shadow:0 22px 55px rgba(9,38,74,.16);transform:rotate(-1.5deg)}
+.certificate-real-frame a{display:block;line-height:0;cursor:zoom-in}
+.certificate-real-image{display:block;width:100%;height:auto;max-height:540px;object-fit:contain;border:1px solid #e1e8ef}
+.certificate-caption{margin:10px 0 2px;text-align:center;font-size:10px;font-weight:700;letter-spacing:.04em;color:#63758b}
+@media(max-width:700px){.certificate-real-frame{width:min(100%,330px)}.certificate-real-image{max-height:480px}}
