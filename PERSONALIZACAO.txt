@@ -1,0 +1,10 @@
+PERSONALIZAÇÃO JOTA GÁS
+
+WhatsApp configurado: +55 14 99800-7658
+Zona de atendimento: não informada ainda (não aparece como endereço no site).
+Idiomas: português brasileiro (padrão) e espanhol, com seletor PT / ES no menu.
+
+IMPORTANTE:
+- O certificado PDF real ainda precisa ser colocado em certificado/certificado.pdf.
+- Coloque seus vídeos MP4 na pasta videos/ com os nomes descritos em videos/LEIA-ME.txt.
+- O site é estático e pode ser publicado no GitHub Pages ou Vercel.
