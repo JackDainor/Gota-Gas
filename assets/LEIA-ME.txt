@@ -1,0 +1,4 @@
+LOGO
+
+A imagem logo-jota-gas.jpg é a imagem enviada pelo cliente e é usada como identidade visual do site.
+Se tiver uma versão em PNG com fundo transparente ou maior resolução, pode substituir este arquivo mantendo o mesmo nome.
