@@ -1,0 +1,7 @@
+CERTIFICADO PROFISSIONAL
+
+Coloque seu certificado real em PDF nesta pasta e renomeie-o para:
+certificado.pdf
+
+O botão “Ver certificado em PDF” já aponta para certificado/certificado.pdf.
+Não publique dados pessoais que você não queira deixar disponíveis publicamente.
