@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -6,86 +7,570 @@
   <meta name="theme-color" content="#09264a">
   <meta name="description" content="Jota Gás — instalações, manutenção e serviços profissionais em gás. Atendimento pelo WhatsApp.">
   <title>Jota Gás | Instalações e Manutenção Profissional</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="topline"><div class="container topline-inner"><span>🔥 Segurança, cuidado e serviço bem-feito</span><a href="#contato">Solicite seu orçamento <span aria-hidden="true">↗</span></a></div></div>
+
+  <!-- BARRA SUPERIOR -->
+  <div class="topline">
+    <div class="container topline-inner">
+      <span>🔥 Segurança, cuidado e serviço bem-feito</span>
+      <a href="#contato">
+        Solicite seu orçamento <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- CABEÇALHO -->
   <header class="header">
     <div class="container nav-wrap">
-      <a class="brand" href="#inicio" aria-label="Jota Gás - início"><img src="assets/logo-jota-gas.jpg" alt="Logo Jota Gás"><span><strong>JOTA GÁS</strong><small>Instalações e manutenção</small></span></a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+
+      <a class="brand" href="#inicio" aria-label="Jota Gás - início">
+        <img src="assets/logo-jota-gas.jpg" alt="Logo Jota Gás">
+        <span>
+          <strong>JOTA GÁS</strong>
+          <small>Instalações e manutenção</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <nav class="nav" id="nav">
-        <a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#trabalhos">Trabalhos</a><a href="#certificado">Certificação</a><a href="#contato" class="nav-cta">Falar no WhatsApp <span>↗</span></a>
-        <label class="language-switch" aria-label="Selecionar idioma"><span>文</span><select id="languageSelect"><option value="pt-BR">PT</option><option value="es">ES</option></select></label>
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#trabalhos">Trabalhos</a>
+        <a href="#certificado">Certificação</a>
+
+        <a href="#contato" class="nav-cta">
+          Falar no WhatsApp <span>↗</span>
+        </a>
+
+        <label class="language-switch" aria-label="Selecionar idioma">
+          <span>文</span>
+          <select id="languageSelect">
+            <option value="pt-BR">PT</option>
+            <option value="es">ES</option>
+          </select>
+        </label>
       </nav>
+
     </div>
   </header>
 
   <main>
+
+    <!-- INÍCIO -->
     <section class="hero" id="inicio">
-      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+
       <div class="container hero-grid">
+
         <div class="hero-copy reveal">
-          <div class="eyebrow"><span class="eyebrow-dot"></span> JOTA GÁS · SERVIÇO PROFISSIONAL</div>
-          <h1>Seu gás em boas mãos.<br><span>Serviço seguro,</span><br>resultado de confiança.</h1>
-          <p>Instalação, manutenção e ajustes em sistemas a gás com atenção aos detalhes e compromisso com a segurança.</p>
-          <div class="hero-actions"><a class="btn btn-orange" href="#contato">Pedir orçamento <span>↗</span></a><a class="btn btn-outline" href="#servicos"><span class="play-icon">▶</span> Conhecer serviços</a></div>
-          <div class="hero-proof"><div class="proof-icon">✓</div><div><strong>Profissional qualificado pelo SENAI</strong><small>Atendimento responsável e personalizado</small></div></div>
+
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            JOTA GÁS · SERVIÇO PROFISSIONAL
+          </div>
+
+          <h1>
+            Seu gás em boas mãos.<br>
+            <span>Serviço seguro,</span><br>
+            resultado de confiança.
+          </h1>
+
+          <p>
+            Instalação, manutenção e ajustes em sistemas a gás
+            com atenção aos detalhes e compromisso com a segurança.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-orange" href="#contato">
+              Pedir orçamento <span>↗</span>
+            </a>
+
+            <a class="btn btn-outline" href="#servicos">
+              <span class="play-icon">▶</span>
+              Conhecer serviços
+            </a>
+          </div>
+
+          <div class="hero-proof">
+            <div class="proof-icon">✓</div>
+            <div>
+              <strong>Profissional qualificado pelo SENAI</strong>
+              <small>Atendimento responsável e personalizado</small>
+            </div>
+          </div>
+
         </div>
+
         <div class="hero-visual reveal">
-          <div class="hero-image-frame"><img src="assets/logo-jota-gas.jpg" alt="Identidade visual Jota Gás"></div>
-          <div class="floating-note note-top"><span class="note-icon">🛠️</span><div><strong>Manutenção</strong><small>Com atenção aos detalhes</small></div></div>
-          <div class="floating-note note-bottom"><span class="note-icon orange">✦</span><div><strong>Qualidade em cada serviço</strong><small>Seu conforto é prioridade</small></div></div>
-          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+
+          <div class="hero-image-frame">
+            <img src="assets/logo-jota-gas.jpg" alt="Identidade visual Jota Gás">
+          </div>
+
+          <div class="floating-note note-top">
+            <span class="note-icon">🛠️</span>
+            <div>
+              <strong>Manutenção</strong>
+              <small>Com atenção aos detalhes</small>
+            </div>
+          </div>
+
+          <div class="floating-note note-bottom">
+            <span class="note-icon orange">✦</span>
+            <div>
+              <strong>Qualidade em cada serviço</strong>
+              <small>Seu conforto é prioridade</small>
+            </div>
+          </div>
+
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+
         </div>
+
       </div>
-      <div class="hero-bottom container"><span>INSTALAÇÕES</span><i></i><span>MANUTENÇÃO</span><i></i><span>REGULAGEM</span><i></i><span>CONVERSÃO</span></div>
+
+      <div class="hero-bottom container">
+        <span>INSTALAÇÕES</span><i></i>
+        <span>MANUTENÇÃO</span><i></i>
+        <span>REGULAGEM</span><i></i>
+        <span>CONVERSÃO</span>
+      </div>
+
     </section>
 
-    <section class="trust-strip"><div class="container trust-grid"><div><b>01</b><span>Atendimento personalizado</span></div><div><b>02</b><span>Orientação clara</span></div><div><b>03</b><span>Foco em segurança</span></div><div><b>04</b><span>Orçamento pelo WhatsApp</span></div></div></section>
+    <!-- DIFERENCIAIS -->
+    <section class="trust-strip">
+      <div class="container trust-grid">
 
+        <div><b>01</b><span>Atendimento personalizado</span></div>
+        <div><b>02</b><span>Orientação clara</span></div>
+        <div><b>03</b><span>Foco em segurança</span></div>
+        <div><b>04</b><span>Orçamento pelo WhatsApp</span></div>
+
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
     <section class="section services" id="servicos">
       <div class="container">
-        <div class="section-heading reveal"><div><div class="eyebrow"><span class="eyebrow-dot"></span> O QUE FAZEMOS</div><h2>Soluções para o seu<br><span>sistema de gás.</span></h2></div><p>Do ajuste ao serviço de manutenção, conte com atendimento profissional e explicações claras em cada etapa.</p></div>
+
+        <div class="section-heading reveal">
+
+          <div>
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              O QUE FAZEMOS
+            </div>
+
+            <h2>
+              Soluções para o seu<br>
+              <span>sistema de gás.</span>
+            </h2>
+          </div>
+
+          <p>
+            Do ajuste ao serviço de manutenção, conte com atendimento
+            profissional e explicações claras em cada etapa.
+          </p>
+
+        </div>
+
         <div class="service-grid">
-          <article class="service-card reveal"><div class="service-number">01 / MANUTENÇÃO</div><div class="service-icon">⌁</div><h3>Troca de resistência</h3><p>Serviço de substituição e verificação do equipamento, conforme o modelo e a necessidade.</p><a href="#contato" class="text-link" data-service="Troca de resistência">Consultar serviço <span>↗</span></a></article>
-          <article class="service-card reveal featured"><div class="featured-tag">SERVIÇO ESPECIALIZADO</div><div class="service-number">02 / REGULAGEM</div><div class="service-icon">♨</div><h3>Regulação de fogo industrial</h3><p>Avaliação e ajuste para ajudar o equipamento a funcionar de maneira adequada.</p><a href="#contato" class="text-link" data-service="Regulação de fogo industrial">Consultar serviço <span>↗</span></a></article>
-          <article class="service-card reveal"><div class="service-number">03 / CONVERSÃO</div><div class="service-icon">⇄</div><h3>Conversão de fogão</h3><p>Conversão de fogão de gás engarrafado para gás canalizado, conforme compatibilidade técnica.</p><a href="#contato" class="text-link" data-service="Conversão de fogão para gás canalizado">Consultar serviço <span>↗</span></a></article>
-          <article class="service-card reveal"><div class="service-number">04 / INSTALAÇÃO</div><div class="service-icon">⌘</div><h3>Instalações e manutenção</h3><p>Atendimento para avaliar a sua necessidade e indicar a solução adequada.</p><a href="#contato" class="text-link" data-service="Instalação ou manutenção de gás">Consultar serviço <span>↗</span></a></article>
+
+          <article class="service-card reveal">
+            <div class="service-number">01 / MANUTENÇÃO</div>
+            <div class="service-icon">⌁</div>
+
+            <h3>Troca de resistência</h3>
+
+            <p>
+              Serviço de substituição e verificação do equipamento,
+              conforme o modelo e a necessidade.
+            </p>
+
+            <a href="#contato" class="text-link"
+              data-service="Troca de resistência">
+              Consultar serviço <span>↗</span>
+            </a>
+          </article>
+
+          <article class="service-card reveal featured">
+            <div class="featured-tag">SERVIÇO ESPECIALIZADO</div>
+            <div class="service-number">02 / REGULAGEM</div>
+            <div class="service-icon">♨</div>
+
+            <h3>Regulação de fogo industrial</h3>
+
+            <p>
+              Avaliação e ajuste para ajudar o equipamento
+              a funcionar de maneira adequada.
+            </p>
+
+            <a href="#contato" class="text-link"
+              data-service="Regulação de fogo industrial">
+              Consultar serviço <span>↗</span>
+            </a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">03 / CONVERSÃO</div>
+            <div class="service-icon">⇄</div>
+
+            <h3>Conversão de fogão</h3>
+
+            <p>
+              Conversão de fogão de gás engarrafado para gás
+              canalizado, conforme compatibilidade técnica.
+            </p>
+
+            <a href="#contato" class="text-link"
+              data-service="Conversão de fogão para gás canalizado">
+              Consultar serviço <span>↗</span>
+            </a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">04 / INSTALAÇÃO</div>
+            <div class="service-icon">⌘</div>
+
+            <h3>Instalações e manutenção</h3>
+
+            <p>
+              Atendimento para avaliar a sua necessidade
+              e indicar a solução adequada.
+            </p>
+
+            <a href="#contato" class="text-link"
+              data-service="Instalação ou manutenção de gás">
+              Consultar serviço <span>↗</span>
+            </a>
+          </article>
+
         </div>
       </div>
     </section>
 
+    <!-- VÍDEOS DE SERVIÇOS -->
     <section class="work-section" id="trabalhos">
       <div class="container">
-        <div class="section-heading reveal"><div><div class="eyebrow"><span class="eyebrow-dot"></span> NA PRÁTICA</div><h2>Trabalho real.<br><span>Resultado visível.</span></h2></div><p>Esta área está pronta para receber seus vídeos e fotos de serviços realizados. Troque os arquivos de exemplo pelos seus.</p></div>
-        <div class="work-grid">
-          <article class="work-card reveal"><div class="video-box"><video controls preload="metadata" poster="assets/logo-jota-gas.jpg"><source src="videos/troca-de-resistencia.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video><span class="video-label">VÍDEO 01</span></div><div class="work-info"><span>MANUTENÇÃO</span><h3>Troca de resistência</h3><p>Veja como é realizado o serviço.</p></div></article>
-          <article class="work-card reveal"><div class="video-box"><video controls preload="metadata" poster="assets/logo-jota-gas.jpg"><source src="videos/antes-e-depois.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video><span class="video-label">VÍDEO 02</span></div><div class="work-info"><span>RESULTADO</span><h3>Antes e depois</h3><p>Comparação visual do trabalho realizado.</p></div></article>
-          <article class="work-card reveal"><div class="video-box"><video controls preload="metadata" poster="assets/logo-jota-gas.jpg"><source src="videos/regulacao-fogo-industrial.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video><span class="video-label">VÍDEO 03</span></div><div class="work-info"><span>REGULAGEM</span><h3>Fogo industrial</h3><p>Regulação de equipamento industrial.</p></div></article>
-          <article class="work-card reveal"><div class="video-box"><video controls preload="metadata" poster="assets/logo-jota-gas.jpg"><source src="videos/conversao-gas-canalizado.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video><span class="video-label">VÍDEO 04</span></div><div class="work-info"><span>CONVERSÃO</span><h3>Gás engarrafado para canalizado</h3><p>Serviço de conversão de fogão.</p></div></article>
-        </div>
-      
-    </section>
 
-    <section class="qualification" id="certificado">
-      <div class="container qualification-grid">
-        <div class="certificate-art reveal"><div class="certificate-real-frame"><a href="assets/certificado-senai.jpg" target="_blank" rel="noopener" aria-label="Abrir certificado SENAI em tamanho grande"><img class="certificate-real-image" src="assets/certificado-senai.jpg" alt="Certificado SENAI de Gasista de Ligação em nome de Jefferson Augusto Lima Gomes"></a><p class="certificate-caption">Certificado profissional · SENAI São Paulo</p></div><div class="cert-orbit"></div></div>
-        <div class="qualification-copy reveal"><div class="eyebrow"><span class="eyebrow-dot"></span> CONFIANÇA E QUALIFICAÇÃO</div><h2>Profissional qualificado <span>pelo SENAI.</span></h2><p>Compromisso com a formação profissional, a responsabilidade e a qualidade em cada atendimento.</p><ul class="check-list"><li><span>✓</span> Qualificação profissional</li><li><span>✓</span> Comunicação clara com o cliente</li><li><span>✓</span> Atenção aos procedimentos de segurança</li></ul><a class="btn btn-orange" href="certificado/certificado.pdf" target="_blank" rel="noopener">Ver certificado em PDF <span>↗</span></a><small class="file-note">Coloque seu documento real em <b>certificado/certificado.pdf</b>.</small></div>
+        <div class="section-heading reveal">
+
+          <div>
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              NA PRÁTICA
+            </div>
+
+            <h2>
+              Trabalho real.<br>
+              <span>Resultado visível.</span>
+            </h2>
+          </div>
+
+          <p>
+            Conheça alguns dos serviços realizados pela Jota Gás.
+            Assista aos vídeos e veja o trabalho na prática.
+          </p>
+
+        </div>
+
+        <div class="work-grid">
+
+          <!-- VÍDEO 1: TROCA DE RESISTÊNCIA -->
+          <article class="work-card reveal">
+            <div class="video-box">
+
+              <video controls preload="none"
+                playsinline poster="assets/logo-jota-gas.jpg">
+
+                <source
+                  src="https://www.dropbox.com/scl/fi/dbr6i4u9u4eh4umpe9jw5/antes-e-depois.mp4?rlkey=3hzh4wllg8vjygkenc4xn86ic&st=21f41i94&dl=1"
+                  type="video/mp4">
+
+                Seu navegador não suporta vídeo.
+              </video>
+
+              <span class="video-label">VÍDEO 01</span>
+            </div>
+
+            <div class="work-info">
+              <span>MANUTENÇÃO</span>
+              <h3>Troca de resistência</h3>
+              <p>Veja como é realizado o serviço.</p>
+            </div>
+          </article>
+
+          <!-- VÍDEO 2: ANTES E DEPOIS -->
+          <article class="work-card reveal">
+            <div class="video-box">
+
+              <video controls preload="none"
+                playsinline poster="assets/logo-jota-gas.jpg">
+
+                <source
+                  src="https://www.dropbox.com/scl/fi/edfctpz7jhsf4n76e5yf8/conversao-gas-canalizado.mp4?rlkey=751ypilnlzzcg7hvbvoiobd46&st=zlhns64r&dl=1"
+                  type="video/mp4">
+
+                Seu navegador não suporta vídeo.
+              </video>
+
+              <span class="video-label">VÍDEO 02</span>
+            </div>
+
+            <div class="work-info">
+              <span>RESULTADO</span>
+              <h3>Antes e depois</h3>
+              <p>Comparação visual do trabalho realizado.</p>
+            </div>
+          </article>
+
+          <!-- VÍDEO 3: FOGO INDUSTRIAL -->
+          <article class="work-card reveal">
+            <div class="video-box">
+
+              <video controls preload="none"
+                playsinline poster="assets/logo-jota-gas.jpg">
+
+                <source
+                  src="https://www.dropbox.com/scl/fi/eb65o9rx5phvmwj9i4o9o/HnVideoEditor_2026_11_03_103806008.mp4?rlkey=zq9l4fepmkvkedjf3y2xrg2m1&st=4picil2j&dl=1"
+                  type="video/mp4">
+
+                Seu navegador não suporta vídeo.
+              </video>
+
+              <span class="video-label">VÍDEO 03</span>
+            </div>
+
+            <div class="work-info">
+              <span>REGULAGEM</span>
+              <h3>Fogo industrial</h3>
+              <p>Regulação de equipamento industrial.</p>
+            </div>
+          </article>
+
+          <!-- VÍDEO 4: CONVERSÃO PARA GÁS CANALIZADO -->
+          <article class="work-card reveal">
+            <div class="video-box">
+
+              <video controls preload="none"
+                playsinline poster="assets/logo-jota-gas.jpg">
+
+                <source
+                  src="https://www.dropbox.com/scl/fi/mnfijfrzu4a7v6qpe3s74/HnVideoEditor_2026_11_03_204552830.mp4?rlkey=4tqgecrynn3399ztdjt9eqfav&st=m7wo98aj&dl=1"
+                  type="video/mp4">
+
+                Seu navegador não suporta vídeo.
+              </video>
+
+              <span class="video-label">VÍDEO 04</span>
+            </div>
+
+            <div class="work-info">
+              <span>CONVERSÃO</span>
+              <h3>Gás engarrafado para canalizado</h3>
+              <p>Serviço de conversão de fogão.</p>
+            </div>
+          </article>
+
+        </div>
       </div>
     </section>
 
-    <section class="contact-section" id="contato">
-      <div class="container contact-panel reveal"><div class="contact-decoration">♨</div><div class="contact-copy"><div class="eyebrow light"><span class="eyebrow-dot"></span> VAMOS CONVERSAR</div><h2>Precisa de ajuda<br>com o seu <span>gás?</span></h2><p>Conte o que você precisa e solicite seu orçamento diretamente pelo WhatsApp.</p><a class="btn btn-white" id="contactWhatsapp" href="#" target="_blank" rel="noopener">Conversar pelo WhatsApp <span>↗</span></a></div><div class="contact-side"><div class="contact-mini-icon">✆</div><h3>Atendimento direto</h3><p>Envie uma mensagem, tire suas dúvidas e combine os detalhes do serviço.</p><div class="contact-divider"></div><span>JOTA GÁS</span><small>Instalações e manutenção profissional</small></div></div>
+    <!-- CERTIFICAÇÃO -->
+    <section class="qualification" id="certificado">
+      <div class="container qualification-grid">
+
+        <div class="certificate-art reveal">
+          <div class="certificate-paper">
+
+            <div class="cert-seal">JG</div>
+            <div class="cert-small">QUALIFICAÇÃO PROFISSIONAL</div>
+
+            <h3>
+              Certificado de<br>
+              <span>Qualificação</span>
+            </h3>
+
+            <div class="cert-line"></div>
+
+            <p>
+              Formação e compromisso com o trabalho profissional.
+            </p>
+
+            <div class="cert-footer">
+              <span>JOTA GÁS</span>
+              <span>SENAI ✓</span>
+            </div>
+
+          </div>
+
+          <div class="cert-orbit"></div>
+        </div>
+
+        <div class="qualification-copy reveal">
+
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            CONFIANÇA E QUALIFICAÇÃO
+          </div>
+
+          <h2>
+            Profissional qualificado
+            <span>pelo SENAI.</span>
+          </h2>
+
+          <p>
+            Compromisso com a formação profissional,
+            a responsabilidade e a qualidade em cada atendimento.
+          </p>
+
+          <ul class="check-list">
+            <li><span>✓</span> Qualificação profissional</li>
+            <li><span>✓</span> Comunicação clara com o cliente</li>
+            <li><span>✓</span> Atenção aos procedimentos de segurança</li>
+          </ul>
+
+          <a class="btn btn-orange"
+            href="certificado/certificado.pdf"
+            target="_blank" rel="noopener">
+            Ver certificado em PDF <span>↗</span>
+          </a>
+
+          <small class="file-note">
+            Coloque seu documento real em
+            <b>certificado/certificado.pdf</b>.
+          </small>
+
+        </div>
+      </div>
     </section>
+
+    <!-- CONTATO -->
+    <section class="contact-section" id="contato">
+      <div class="container contact-panel reveal">
+
+        <div class="contact-decoration">♨</div>
+
+        <div class="contact-copy">
+
+          <div class="eyebrow light">
+            <span class="eyebrow-dot"></span>
+            VAMOS CONVERSAR
+          </div>
+
+          <h2>
+            Precisa de ajuda<br>
+            com o seu <span>gás?</span>
+          </h2>
+
+          <p>
+            Conte o que você precisa e solicite seu orçamento
+            diretamente pelo WhatsApp.
+          </p>
+
+          <a class="btn btn-white" id="contactWhatsapp"
+            href="https://wa.me/5514998007658"
+            target="_blank" rel="noopener">
+            Conversar pelo WhatsApp <span>↗</span>
+          </a>
+
+        </div>
+
+        <div class="contact-side">
+
+          <div class="contact-mini-icon">✆</div>
+
+          <h3>Atendimento direto</h3>
+
+          <p>
+            Envie uma mensagem, tire suas dúvidas e combine
+            os detalhes do serviço.
+          </p>
+
+          <div class="contact-divider"></div>
+
+          <span>JOTA GÁS</span>
+          <small>Instalações e manutenção profissional</small>
+
+        </div>
+
+      </div>
+    </section>
+
   </main>
 
-  <footer class="footer"><div class="container footer-main"><a class="brand footer-brand" href="#inicio"><img src="assets/logo-jota-gas.jpg" alt=""><span><strong>JOTA GÁS</strong><small>Instalações e manutenção</small></span></a><p>Serviços profissionais em gás com atenção à qualidade e à segurança.</p><div class="footer-links"><a href="#servicos">Serviços</a><a href="#trabalhos">Trabalhos</a><a href="#certificado">Certificação</a><a href="#contato">Contato</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Jota Gás. Todos os direitos reservados.</span><span>Feito com cuidado <b>♥</b></span></div></footer>
+  <!-- RODAPÉ: REMOVIDO "FEITO COM CARINHO" -->
+  <footer class="footer">
 
-  <a class="whatsapp-float" id="floatingWhatsapp" href="#" target="_blank" rel="noopener" aria-label="Falar com Jota Gás pelo WhatsApp"><span class="help-bubble">Precisa de ajuda?</span><span class="wa-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 .8A15.1 15.1 0 0 0 3.1 23.8L1 31l7.4-1.9A15.2 15.2 0 1 0 16 .8Zm0 27.5a12.3 12.3 0 0 1-6.3-1.7l-.5-.3-4.4 1.1 1.2-4.3-.3-.5A12.3 12.3 0 1 1 16 28.3Zm6.8-9.2c-.4-.2-2.2-1.1-2.6-1.2-.3-.1-.6-.2-.8.2-.2.4-1 1.2-1.2 1.4-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.2-2.1-2.6-.2-.4 0-.6.2-.8l.6-.7c.2-.2.2-.4.4-.6.1-.2 0-.5 0-.7-.1-.2-.8-2-1.1-2.7-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.3 2.6 4 6.2 5.5.9.4 1.6.6 2.1.7.9.3 1.7.2 2.3.1.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5Z"/></svg></span></a>
+    <div class="container footer-main">
+
+      <a class="brand footer-brand" href="#inicio">
+        <img src="assets/logo-jota-gas.jpg" alt="Logo Jota Gás">
+        <span>
+          <strong>JOTA GÁS</strong>
+          <small>Instalações e manutenção</small>
+        </span>
+      </a>
+
+      <p>
+        Serviços profissionais em gás com atenção
+        à qualidade e à segurança.
+      </p>
+
+      <div class="footer-links">
+        <a href="#servicos">Serviços</a>
+        <a href="#trabalhos">Trabalhos</a>
+        <a href="#certificado">Certificação</a>
+        <a href="#contato">Contato</a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <span>
+        © <span id="year"></span> Jota Gás. Todos os direitos reservados.
+      </span>
+    </div>
+
+  </footer>
+
+  <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+  <a class="whatsapp-float"
+    id="floatingWhatsapp"
+    href="https://wa.me/5514998007658"
+    target="_blank"
+    rel="noopener"
+    aria-label="Falar com Jota Gás pelo WhatsApp">
+
+    <span class="help-bubble">Precisa de ajuda?</span>
+
+    <span class="wa-icon">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16 .8A15.1 15.1 0 0 0 3.1 23.8L1 31l7.4-1.9A15.2 15.2 0 1 0 16 .8Zm0 27.5a12.3 12.3 0 0 1-6.3-1.7l-.5-.3-4.4 1.1 1.2-4.3-.3-.5A12.3 12.3 0 1 1 16 28.3Zm6.8-9.2c-.4-.2-2.2-1.1-2.6-1.2-.3-.1-.6-.2-.8.2-.2.4-1 1.2-1.2 1.4-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.2-2.1-2.6-.2-.4 0-.6.2-.8l.6-.7c.2-.2.2-.4.4-.6.1-.2 0-.5 0-.7-.1-.2-.8-2-1.1-2.7-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.3 2.6 4 6.2 5.5.9.4 1.6.6 2.1.7.9.3 1.7.2 2.3.1.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5Z"/>
+      </svg>
+    </span>
+
+  </a>
+
   <script src="script.js"></script>
+
 </body>
 </html>
