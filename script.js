@@ -57,7 +57,7 @@ const translations = {
     description: "Jota Gás — instalaciones, mantenimiento y servicios profesionales de gas. Atención por WhatsApp.",
     nav: ["Inicio", "Servicios", "Trabajos", "Certificación", "Hablar por WhatsApp"],
     eyebrow: "JOTA GÁS · SERVICIO PROFESIONAL",
-    hero1: "Tu gas en buenas manos.",
+    hero1: "Tu cosina en buenas manos.",
     hero2: "Servicio seguro,",
     hero3: "resultados confiables.",
     intro: "Instalación, mantenimiento y ajustes en sistemas de gas con atención a los detalles y compromiso con la seguridad.",
