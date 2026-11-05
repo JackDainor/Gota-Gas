@@ -1,5 +1,5 @@
 // CONFIGURAÇÃO DA EMPRESA
-const WHATSAPP_NUMBER = "5514998007658";
+const WHATSAPP_NUMBER = "5511914978413";
 const DEFAULT_LANGUAGE = "pt-BR";
 
 const translations = {
